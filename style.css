@@ -1,0 +1,101 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+section{
+    width: 100%;
+    height: 100vh;
+    background-image: url('Lake_mountains_forest_pine-Nature_Photo_HD_Wallpaper_1366x768.jpg');
+    background-size: cover;
+}
+
+div{
+    padding: 50px;
+}
+
+div#cabecalho{
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+h1{
+    padding: 0;
+    margin: 0;
+    font-size: 30px;
+    text-align: center;
+}
+
+p{
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+p#explicacao{
+    padding: 30px 90px 0px 90px;
+    text-align: center;
+}
+
+p#digiteNumero{
+    padding: 5px 30px 0px 0px;
+}
+
+div#inputs{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    padding: 30px 0px 30px 0px;
+}
+
+input{
+    outline: none;
+    padding: 5px;
+    width: 40px;
+    border-radius: 5px 0px 0px 5px;
+    border: none;
+}
+
+button{
+    background-color: skyblue;
+    border: none;
+    outline: none;
+    border-radius: 0px 5px 5px 0px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: slateblue;
+}
+
+h3{
+    background-color: red;
+    text-align: center;
+    padding: 15px;
+    opacity: 0;
+    display: none;
+}
+
+div#orientacao{
+    padding-top: 0px;
+}
+
+
+
+.entrou {
+    animation: entrou 0.3s ease-in-out forwards;
+    -webkit-animation: entrou 0.3s ease-in-out forwards;
+    -moz-animation: entrou 0.3s ease-in-out forwards;
+    -o-animation: entrou 0.3s ease-in-out forwards;
+     animation: entrou 0.3s ease-in-out forwards;
+     display: block;
+}
+
+@keyframes entrou {
+    from {opacity: 0;}
+    to {opacity: 0.7;}
+}
+
+.saiu{
+    display: none;
+}
